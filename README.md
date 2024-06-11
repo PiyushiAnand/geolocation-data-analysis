@@ -39,3 +39,8 @@ This is a self project that aims to do data analysis to help in suggesting housi
 
 4. **Print Cluster Stats:**
    - Print the statistics of the clusters to help decide which type of user will prefer what location.
+### Note:
+
+Currently, the script in `generate_geo_data.py` has the query to generate the data for New York. If you want data for any other city, you can use the coordinates of that city. The general URL will be:
+
+url = "https://api.foursquare.com/v3/places/search?ll=latitude%2Clongitude"
